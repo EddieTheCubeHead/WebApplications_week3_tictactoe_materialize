@@ -1,0 +1,54 @@
+* {
+  text-align: center;
+  font-family: Helvetica;
+  font: Helvetica;
+}
+
+#game {
+  align-content: center;
+  overflow: auto;
+  margin: 100px auto;
+}
+
+.cell {
+  font: Helvetica;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.coordcell {
+  font: Helvetica;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#reset_button {
+  align-self: center;
+  margin-left: 100px auto;
+  margin-right: 100px auto;
+}
+
+#reset_button:hover {
+  cursor: pointer;
+}
+
+.progress_background {
+  align-content: center;
+  align-self: center;
+  overflow: auto;
+  background: lightgray;
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+}
+
+#timer_progress {
+  background: greenyellow;
+}
